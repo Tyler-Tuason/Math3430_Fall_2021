@@ -46,8 +46,16 @@ def MultiplyMatrixbyscalar(Matrix_1,Vector_1)
 # Retrieve the new vector
 
 """""""
-Problem #3
-""""""
+ MultiplyMatrixbyScalar(Scalar_1,Matrix_1):
+  Matrix_1 = {}
+  for element in Matrix_1:
+      Matresult.append(0)
+  NewMat = Scalar_1 * Matrix_1
+  Return Result
+  
+""""
+#Problem #3
+""""
 Write an algorithm to implement matrix addition.
 Q1: two matrices stored as a list of lists, where each list represents a column. these matrices are called: Matrix_1 and Matrix_2.
 Q2: store their sum as a new list
@@ -66,9 +74,17 @@ def add_Matrices(matrix_1,Matrix_2)
   Return Result
 # Retrieve the new vector
 """"""
-
+ MultiplyMatrixbyMatrix(Matrix_1,Matrix_2):
+  Matrix_1 = {}
+  for element in Matrix_1:
+      Matresult.append(0)
+  NewMat = Matrix_1 * Matrix_2
+  Return Result
+  
+"""""
 #Problem #4
-""""""
+
+""""
 Write an algorithm to implement matrix-vector multiplication using the linear
 combination of columns method. You must use the algorithms from Problem #0 and
 problem #1.
@@ -104,9 +120,6 @@ for index in range(length(result)):
   result[index] = Matrix_1[index] + Matrix_2[index]
   Return result
 """"""
-#Test Inputs
-scalar_1 = 2
-Vector_1 = [1,2,3]
 def MultiplyVectorbyScalar(Scalar_1,Vector_1):
   Vector_1 = {}
   for element in Vector_1:
@@ -114,7 +127,14 @@ def MultiplyVectorbyScalar(Scalar_1,Vector_1):
   NewVec = Scalar_1 * Vector_1
   NewVec = Scalar_1 * Vector_1
   Return result
+"""""
+Test_Vector_1 = [1,2,3]
+test_Scalar_1 = [2]
 
-  # add_vectors(test_vector_01,test_vector_02) should output [4,3,6]
-  print('Test Output for add_vectors: ' + str(add_vectors(Scalar_1,vector_1)))
+  # MultiplyVectorbyScalar(test_vector_1,test_Scalar_1) should output [4,3,6]
+  print('Test Output for multiplyVectorbyscalar: ' + str(MultiplyVectorbyScalar(Scalar_1,vector_1)))
   print('Should have been [2,4,6]')
+  
+Test_Matrix_1 = 
+Test_Scalar_1 =
+
