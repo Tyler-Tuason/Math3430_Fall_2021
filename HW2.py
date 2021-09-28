@@ -9,21 +9,27 @@ def MultiplyVectorbyScalar(Scalar_1,Vector_1):
 # setting result as an empty list
 
   Vector_1 = {}
-  for element in Vector_1:
-      Vecresult.append(0)
+  for index in range((len(Vector_1)):
+    result.append(0)
 # the scalar is multiplied to each number of the vector then replaced with the product.
 
-  NewVec = Scalar_1 * Vector_1
   Return Result
 # Retrieve the new vector
 """""""
 def MultiplyVectorbyScalar(Scalar_1,Vector_1):
   Vector_1 = {}
-  for element in Vector_1:
-      Vecresult.append(0)
-  NewVec = Scalar_1 * Vector_1
+  for index in range((len(Vector_1)):
+    result.append(0)
   Return Result
-
+                     
+# MultiplyVectorbyScalar(test_vector_1,test_Scalar_1) should output [2,4,6]
+print('Test Output for multiplyVectorbyscalar: ' + str(MultiplyVectorbyScalar(test_vector_1,test_Scalar_1)))
+print('Should have been [2,4,6]')
+                     
+# MultiplyVectorbyScalar(test_vector_2,test_Scalar_1) should output [4,8,12]
+print('Test Output for multiplyVectorbyscalar: ' + str(MultiplyVectorbyScalar(test_vector_2,test_Scalar_1)))
+print('Should have been [4,8,12]')
+  
 """"""
 #Problem #2
 """"""
@@ -37,8 +43,8 @@ def MultiplyMatrixbyscalar(Matrix_1,Vector_1)
 
   Matrix_1 = {}
 
-  for element in Matrix_1:
-    Matresult.append(0)
+  for index in range((len(matrix_1)):
+    result.append(0)
 # the scalar is multiplied to each number of the matrix then replaced with the product.
 
   NewMat = Scalar_1 * Matrix_1
@@ -48,11 +54,19 @@ def MultiplyMatrixbyscalar(Matrix_1,Vector_1)
 """""""
  MultiplyMatrixbyScalar(Scalar_1,Matrix_1):
   Matrix_1 = {}
-  for element in Matrix_1:
-      Matresult.append(0)
+  for index in range((len(matrix_1)):
+      result.append(0)
   NewMat = Scalar_1 * Matrix_1
   Return Result
-  
+                     
+# MultiplyMatrixbyScalar(test_Matrix_1,test_Scalar_1) should output [[2,4,6],[4,8,12],[2,6,10]]
+print('Test Output for multiplyMatrixbyscalar: ' + str(MultiplyMatrixbyScalar(test_Matrix_1,test_Scalar_1)))
+print('Should have been [[2,4,6],[4,8,12],[2,6,10]]')
+
+# MultiplyMatrixbyScalar(test_Matrix_2,test_Scalar_1) should output [[2,6,10],[4,8,12],[2,4,6]]
+print('Test Output for multiplyMatrixbyscalar: ' + str(MultiplyMatrixbyScalar(test_Matrix_2,test_Scalar_1)))
+print('Should have been [[2,6,10],[4,8,12],[2,4,6]]')
+                     
 """"
 #Problem #3
 """"
@@ -66,22 +80,27 @@ def add_Matrices(matrix_1,Matrix_2)
 
   Matrix_1={}
 
-  for element in Matrix_1:
-    Matresult.append(0)
+  for index in range((len(matrix_1)):
+   result.append(add_vectors(matrix_1[index],Matrix_2[Index])
 # the matrix is added to each number of the matrix then replaced with the product.
 
-  NewMat = Matrix_1 + Matrix_2
   Return Result
 # Retrieve the new vector
-""""""
- MultiplyMatrixbyMatrix(Matrix_1,Matrix_2):
+
+def add_Matrices(matrix_1,Matrix_2)
   Matrix_1 = {}
-  for element in Matrix_1:
-      Matresult.append(0)
-  NewMat = Matrix_1 * Matrix_2
+  for index in range((len(matrix_1)):
+   result.append(add_vectors(matrix_1[index],Matrix_2[Index])
   Return Result
-  
-"""""
+                 
+# Add Matrices(test_Matrix_1,test_Matrix_2) should output [2,5,8],[4,8,12],[2,5,8]
+print('Test Output for add_Matrices: ' + str(Add_Matrices(test_Matrix_1,test_Matrix_2)))
+print('Should have been [2,5,8],[4,8,12],[2,5,8]')
+                 
+# Add Matrices(test_Matrix_2,test_Matrix_3) should output [2,6,10],[3,6,9],[3,6,9]
+print('Test Output for add_Matrices: ' + str(Add_Matrices(test_Matrix_2,test_Matrix_3)))
+print('Should have been [2,6,10],[3,6,9],[3,6,9]')
+                 
 #Problem #4
 
 """"
@@ -128,13 +147,13 @@ def MultiplyVectorbyScalar(Scalar_1,Vector_1):
   NewVec = Scalar_1 * Vector_1
   Return result
 """""
+#Test_Inputs              
+                 
 Test_Vector_1 = [1,2,3]
-test_Scalar_1 = [2]
+Test_Vector_2 = [2,4,6]
+Test_Vector_3 = [1,3,5]
+Test_Scalar_1 = [2]
 
-  # MultiplyVectorbyScalar(test_vector_1,test_Scalar_1) should output [4,3,6]
-  print('Test Output for multiplyVectorbyscalar: ' + str(MultiplyVectorbyScalar(Scalar_1,vector_1)))
-  print('Should have been [2,4,6]')
-  
-Test_Matrix_1 = 
-Test_Scalar_1 =
-
+Test_Matrix_1 =[Test_Vector_1,Test_Vector_2,Test_Vector_3]
+Test_Matrix_2 =[Test_Vector_3,Test_Vector_2,Test_Vector_1]
+Test_Matrix_2 =[Test_Vector_3,Test_Vector_1,Test_Vector_2]
